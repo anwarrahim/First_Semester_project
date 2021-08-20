@@ -1,0 +1,311 @@
+body {
+    background-color: #eeeeee;
+}
+
+.signup {
+    background-color: white;
+    padding: 100px;
+    /* height: 00px; */
+}
+
+div.signup {
+    height: 400px;
+}
+
+.fist_header {
+    background-color: rgb(0, 0, 0);
+    width: 1330px;
+}
+
+.fist_header li {
+    color: white;
+}
+
+.header_home,
+.header_consultant,
+.header_doctor,
+.header_pharmacist,
+.laboratory {
+    color: white;
+    text-decoration: none;
+}
+
+.fist_header_ul li {
+    display: inline-block;
+    padding: 20px 5px 10px 5px;
+    position: relative;
+    width: 100px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.fist_header_ul {
+    margin: 0 0 0 670px;
+}
+
+.form {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    height: 430px;
+    margin: 150px 0 0 30px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    bottom: 575px;
+    /* padding: 30px; */
+    border-radius: 10px;
+}
+
+.oneLine {
+    display: inline-block;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(240, 238, 238, 0.582);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#password {
+    width: 340px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgba(240, 238, 238, 0.582);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Email {
+    width: 340px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(240, 238, 238, 0.582);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.signup_button {
+    margin: 70px 0 0 155px;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(240, 238, 238, 0.582);
+    border: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.I_have_account {
+    margin: 80px 0 100px 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo_site {
+    padding: 5px;
+    /* float: left; */
+    position: relative;
+    right: 650px;
+    color: #ffffff;
+    font: normal 23px 'Cookie', cursive;
+    margin: 0;
+}
+
+.logo_site span {
+    color: #5383d3;
+}
+
+
+/* 
+.sign_up_img {
+    width: 1330px;
+} */
+
+.sign_up_img_1 {
+    /* width: 500px; */
+    /* height: 430px; */
+    /* padding: 0 0 0 420px; */
+    margin: 0px 0 0 603px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* footer */
+
+footer {
+    position: relative;
+    top: 300px;
+}
+
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #5383d3;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+    .main {
+        line-height: normal;
+        font-size: auto;
+    }
+}
